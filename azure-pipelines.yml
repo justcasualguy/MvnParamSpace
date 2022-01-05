@@ -36,7 +36,7 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: >-
             test -ntp
-            "-Dprocess=${{parameters.process}}"
-            "-Dorg=${{parameters.org}}"
+            '-Dprocess=${{parameters.process}}'
+            '-Dorg=${{parameters.org}}'
 
 
