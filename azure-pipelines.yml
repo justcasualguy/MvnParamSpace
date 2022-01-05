@@ -37,6 +37,6 @@ steps:
     goals: >-
             test -ntp
             "-Dprocess=${{parameters.process}}"
-            -Dorg=${{parameters.org}}
+            "-Dorg=${{parameters.org}}"
 
 
